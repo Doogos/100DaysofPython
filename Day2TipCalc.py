@@ -13,13 +13,19 @@ tip = int(input("How much would you like to tip?"))
 tippercent = tip / 100
 ttip = bill * tippercent
 tbill = bill + ttip
+tamt = tbill - bill
 split = tbill / ppl
 total = round(split, 2)
 
 #Print totals
+print(" ")
+print(" ")
 print("##############")
 print(f"Total bill: ${bill}")
 print(f"Amount of people: {ppl}")
-print(f"Tip amount: {int(tip)}%")
+print(f"Tip amount: {int(tip)}% - ${tamt}")
+print(f"Total bill with tip: ${tbill}")
 print(f"Each person should pay: ${total}")
 print("##############")
+print(" ")
+print(" ")

@@ -8,3 +8,4 @@ My attempt at completing the Python 100 day challenge
 <br />Day 4
 <br />Day 5
 <br />Day 6
+<br />Day 7
